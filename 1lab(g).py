@@ -32,4 +32,4 @@ resultx = (a + b) / 2
 resulty = func(resultx)
 print("x", resultx)
 print("y", resulty)
-print("итерации ", i)
+print("итерации", i)

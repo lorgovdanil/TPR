@@ -20,6 +20,8 @@ while abs((b - a)) > eps:
         a = x1
     else:
         b = x2
-result = (a + b) / 2
-print("результат ", result)
-print("итерации ", i)
+resultx = (a + b) / 2
+resulty = func(resultx)
+print("x", resultx)
+print("y", resulty)
+print("итерации", i)
